@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <title>Libros Schmibros - Registrarse</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <!-- Bootstrap local-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <!-- Barra de Navegacion-->
+    <nav class="navbar navbar-expand-md">
+            <a class="navbar-brand" href="index.html">
+                <img src="crimsone eye.png"width="30" height="30" alt="">
+                Libros Schmibros</a>
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-navigation">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="catalogo.html">Ultimas Llegadas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">Login</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    <!-- -->
+
+    <!-- Contenedor-->
+    <header class="page-header header container-fluid">
+            <!-- <div class="overlay"></div> -->
+            
+    </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-4 col-sm-12">
+        <div class="card">
+          <h3>Registrarse</h3>
+          <div class="form-group row">
+            <label for="usuario" class="col-md-4 col-form-label text-md-right">Email</label>
+            <div class="col-md-6">
+                <input type="text" id="input_email">
+            </div>
+            
+          
+            
+        </div>
+          <div class="form-group row">
+              <label for="usuario" class="col-md-4 col-form-label text-md-right">Usuario</label>
+              <div class="col-md-6">
+                  <input type="text" id="input_usuario">
+              </div>
+              
+            
+              
+          </div>
+
+          <div class="form-group row">
+              <label for="password" class="col-md-4 col-form-label text-md-right">Contraseña</label>
+              <div class="col-md-6">
+                  <input type="password" id="input_password">
+              </div>
+          </div>
+          <div class="form-group row">
+            <label for="password" class="col-md-4 col-form-label text-md-right">Confirmar Contraseña</label>
+            <div class="col-md-6">
+                <input type="password" id="conf_password">
+            </div>
+        </div>
+        <div class="col-md-6 offset-md-4">
+
+        <input type="checkbox">He leido y acepto los terminos y condiciones
+    </div>
+
+          <div class="col-md-6 offset-md-4">
+              
+              <button onclick="login();">Registrar</button>
+  
+              
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <button class="btn-log" onclick="guardarAJSON()">Log</button>
+
+
+
+
+    <script src="main.js"></script>
+    <!-- Jquery-->
+    <script src="jquery-3.3.1.js"></script>
+    <!--Bootstrap JavaScript-->
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
